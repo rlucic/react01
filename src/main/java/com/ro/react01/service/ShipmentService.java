@@ -4,5 +4,5 @@ import com.ro.react01.model.Shipment;
 
 public interface ShipmentService {
 
-	public void ShipmentService(Shipment shipment);
+	public void shipmentServiceUpdate(Shipment shipment) throws InterruptedException;
 }
